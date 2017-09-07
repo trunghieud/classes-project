@@ -36,12 +36,12 @@ public class Bug
 	{
 		super();
 		this.bugId = 123456;
-		this.reporterName = "Reporter Name";
-		this.bugName = "Bug Name";
+		this.reporterName = "Default Reporter Name";
+		this.bugName = "Default Bug Name";
 		this.bugCategory = 'B';
-		this.operatingSystem = "Operating System";
+		this.operatingSystem = "Windows";
 		this.date = "01/01/2000";
-		this.bugDetails = "Bug Details";
+		this.bugDetails = "Test";
 		this.frequency = 1.0;
 		this.isActive = false;
 	}
@@ -159,6 +159,13 @@ public class Bug
 	 */
 	public boolean isActive()
 	{
+		return this.isActive;
+	}
+
+	public boolean recreateBugActivity(int bugId)
+	{
+		System.out.println(
+				this.bugName + " is recreated with bug[" + bugId + "] activity - Bug Details " + this.bugDetails);
 		return this.isActive;
 	}
 

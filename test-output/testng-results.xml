@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51" started-at="2017-09-03T06:04:55Z" finished-at="2017-09-03T06:04:55Z">
+  <suite name="Default suite" duration-ms="40" started-at="2017-09-05T19:14:58Z" finished-at="2017-09-05T19:14:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51" started-at="2017-09-03T06:04:55Z" finished-at="2017-09-03T06:04:55Z">
-      <class name="com.sqa.td.BugTest">
-        <test-method status="PASS" signature="testBug()[pri:0, instance:com.sqa.td.BugTest@29ee9faa]" name="testBug" duration-ms="18" started-at="2017-09-02T23:04:55Z" finished-at="2017-09-02T23:04:55Z">
+    <test name="Default test" duration-ms="40" started-at="2017-09-05T19:14:58Z" finished-at="2017-09-05T19:14:58Z">
+      <class name="com.sqa.td.GameTest">
+        <test-method status="PASS" signature="testGame()[pri:0, instance:com.sqa.td.GameTest@8bd1b6a]" name="testGame" duration-ms="18" started-at="2017-09-05T12:14:58Z" finished-at="2017-09-05T12:14:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBug -->
-      </class> <!-- com.sqa.td.BugTest -->
+        </test-method> <!-- testGame -->
+      </class> <!-- com.sqa.td.GameTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

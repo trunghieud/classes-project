@@ -17,6 +17,7 @@ public class BugTest
 		for (int i = 0; i < bug.length; i++)
 		{
 			System.out.println("Bug Details: " + bug[i]);
+			bug[i].recreateBugActivity(123);
 		}
 	}
 }
